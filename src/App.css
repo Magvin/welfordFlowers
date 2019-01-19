@@ -256,11 +256,11 @@ html {
   padding: 1.5rem;
 }
 .billboard__img{
-  height: 50rem;
+  height: 40rem;
 
 }
 .billboard__action {
-  height: 50rem;
+  height: 40rem;
 
 }
 .billboard__action--bck-text span:nth-child(2) {
