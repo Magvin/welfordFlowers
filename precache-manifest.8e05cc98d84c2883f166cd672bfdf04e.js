@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "39a15ecaaa47d68a037b6885dfe1f37f",
-    "url": "/welfordFlowers/static/media/cart.39a15eca.svg"
+    "revision": "bff5b52cda1b2dbfa418d5638845bb8e",
+    "url": "/welfordFlowers/static/media/alexandra.bff5b52c.jpg"
   },
   {
-    "revision": "e3cc56d322aa10192b93",
-    "url": "/welfordFlowers/static/css/main.1208ab2a.chunk.css"
+    "revision": "ef444fa42e11cf071dcb",
+    "url": "/welfordFlowers/static/css/main.bda98334.chunk.css"
   },
   {
     "revision": "f22fde3f0ca9fa1ca6b1",
@@ -20,12 +20,28 @@ self.__precacheManifest = [
     "url": "/welfordFlowers/static/media/search.7dcc50f7.svg"
   },
   {
-    "revision": "e3cc56d322aa10192b93",
-    "url": "/welfordFlowers/static/js/main.e3cc56d3.chunk.js"
+    "revision": "39a15ecaaa47d68a037b6885dfe1f37f",
+    "url": "/welfordFlowers/static/media/cart.39a15eca.svg"
   },
   {
     "revision": "d9f39d3c6d8b7c9c738df6963bd1283b",
     "url": "/welfordFlowers/static/media/amy-shamblen.d9f39d3c.jpg"
+  },
+  {
+    "revision": "ef444fa42e11cf071dcb",
+    "url": "/welfordFlowers/static/js/main.ef444fa4.chunk.js"
+  },
+  {
+    "revision": "5e3419567dd200471bf995a86add81bc",
+    "url": "/welfordFlowers/static/media/monika.5e341956.jpg"
+  },
+  {
+    "revision": "c741adc9ec3af26958bf1970058f4a8a",
+    "url": "/welfordFlowers/static/media/christie.c741adc9.jpg"
+  },
+  {
+    "revision": "9d8deab0fc0e96574703bfc4ab39487a",
+    "url": "/welfordFlowers/static/media/tanalee.9d8deab0.jpg"
   },
   {
     "revision": "f7b262031305c30141466c1994c92710",
@@ -40,7 +56,7 @@ self.__precacheManifest = [
     "url": "/welfordFlowers/static/media/thomas.09c0fa42.jpg"
   },
   {
-    "revision": "6880da2461053b7667c4fbd0f6e5f451",
+    "revision": "cb013260be50f9e79e17e24f89fd0672",
     "url": "/welfordFlowers/index.html"
   }
 ];
