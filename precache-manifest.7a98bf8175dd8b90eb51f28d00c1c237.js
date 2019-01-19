@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/welfordFlowers/static/media/cart.39a15eca.svg"
   },
   {
-    "revision": "03fca80def1cf3afe129",
-    "url": "/welfordFlowers/static/css/main.c69110f9.chunk.css"
+    "revision": "e3cc56d322aa10192b93",
+    "url": "/welfordFlowers/static/css/main.1208ab2a.chunk.css"
   },
   {
     "revision": "f22fde3f0ca9fa1ca6b1",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/welfordFlowers/static/media/search.7dcc50f7.svg"
   },
   {
-    "revision": "03fca80def1cf3afe129",
-    "url": "/welfordFlowers/static/js/main.03fca80d.chunk.js"
+    "revision": "e3cc56d322aa10192b93",
+    "url": "/welfordFlowers/static/js/main.e3cc56d3.chunk.js"
   },
   {
     "revision": "d9f39d3c6d8b7c9c738df6963bd1283b",
@@ -32,15 +32,15 @@ self.__precacheManifest = [
     "url": "/welfordFlowers/static/media/beatriz-perez.f7b26203.jpg"
   },
   {
-    "revision": "09c0fa4232a1efa189fea6e353f413d1",
-    "url": "/welfordFlowers/static/media/thomas.09c0fa42.jpg"
-  },
-  {
     "revision": "198445f68781f30239737187b0217658",
     "url": "/welfordFlowers/static/media/tom.198445f6.jpg"
   },
   {
-    "revision": "114bf6dc46864958a5ac48aa76e66a17",
+    "revision": "09c0fa4232a1efa189fea6e353f413d1",
+    "url": "/welfordFlowers/static/media/thomas.09c0fa42.jpg"
+  },
+  {
+    "revision": "6880da2461053b7667c4fbd0f6e5f451",
     "url": "/welfordFlowers/index.html"
   }
 ];
