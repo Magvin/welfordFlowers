@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/welfordFlowers/precache-manifest.4e9e60a5784a2d49af7aa93cbce53aba.js"
+  "/welfordFlowers/precache-manifest.3996a0461111b39d1254985aadff7c1e.js"
 );
 
 workbox.clientsClaim();
