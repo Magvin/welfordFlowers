@@ -79,12 +79,13 @@ html,body{
 }
 .header__secondary ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
 }
 .header__secondary ul img {
   width:2rem;
   height: 2rem;
+  cursor: pointer;
 }
 .header__secondary :link,
 .header__secondary :visited {
@@ -103,7 +104,7 @@ html,body{
 .billboard__img{
   width: 71rem;
   height: 75rem;
-  padding: 2.5rem 1rem 2.5rem 2.5rem;
+  padding: 2.5rem 1rem 2.5rem 0rem;
 }
 .billboard__img img{
   width: 100%;
@@ -112,7 +113,7 @@ html,body{
 .billboard__action {
   width: 71rem;
   height: 75rem;
-  padding: 2.5rem 2.5rem 2.5rem 1rem;
+  padding: 2.5rem 0rem 2.5rem 1rem;
 }
 .billboard__action--bck {
   background: #9AB4B3;
@@ -152,14 +153,14 @@ html,body{
 }
 
 .services{
-  max-width: 145rem;
+  max-width: 143rem;
   margin: 0 auto;
   
 }
 .services__images {
   display: flex;
   justify-content: space-between;
-  padding: 0 2.5rem 2.5rem;
+  padding: 0 0 2.5rem;
 
 }
 
@@ -338,7 +339,64 @@ position: relative;
   font-style: italic;
   margin:0;
 }
+.footer__useful-links{
+    margin: 15rem auto 0 auto;
+    font-size: 1.6rem;
+    border-top: 1px solid rgba(156, 156, 156, 0.5);
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(156, 156, 156, 0.5);
+}
 
+.footer__useful-links ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.footer__useful-links :link,
+.footer__useful-links :visited {
+  text-decoration: none;
+  color: #A3A3A3;
+  font-weight: 500;
+}
+.footer__social-links {
+  color:#9AB4B3;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-around;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.fab {
+  border: 1px solid rgba(154, 180, 179, 0.5);;
+  border-radius: 10rem;
+  padding: 1rem;
+  margin: 4rem 0;
+  cursor: pointer;
+}
+
+.footer__copyright{
+  text-align: center;
+  color: #A3A3A3;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  
+}
+.footer__copyright span:nth-child(1){
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.footer__copyright span:nth-child(2){
+  color: #2d2b2b;
+  font-style: italic;
+  font-weight: 400;
+  display: block;
+}
 
 @media (min-width:320px) and (max-width:780px){
 html {

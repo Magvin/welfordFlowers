@@ -56,25 +56,25 @@ function Header() {
 
                     <ul>
                         <img src={Search} alt="search-icon" />
-                        <a href="#">
+                        <a href="/">
                             <li>Home</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li>Shop</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li>Our Story</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li>Exhibitions</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li>Commisions</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li>Blog</li>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <li>Contact</li>
                         </a>
                         <img src={Cart} alt="cart-icon" />

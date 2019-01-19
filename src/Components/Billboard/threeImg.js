@@ -1,7 +1,4 @@
 import React from 'react'
-import Thomas from '../../img/thomas.jpg';
-import Tom from '../../img/tom.jpg';
-import Beatriz from '../../img/beatriz-perez.jpg';
 
 
 function threeImg() {
