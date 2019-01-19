@@ -32,7 +32,7 @@ function showMenu(e) {
         menu.children[1].style.display = '';
         menu.children[2].style.transform = 'translateX(-50%)';
         menu.children[2].style.top = '2.5rem';
-        navigation.style.display = 'none'
+        navigation.style.display = ''
 
 
 

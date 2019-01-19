@@ -151,6 +151,82 @@ html,body{
    
 }
 
+.services{
+  max-width: 145rem;
+  margin: 0 auto;
+  
+}
+.services__images {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5rem 2.5rem;
+
+}
+
+.services__images-one {
+  position: relative;
+  background: url(img/thomas.jpg);
+  width: 45rem;
+  height:44rem;
+  background-size: cover;
+}
+.services__images-two {
+  position: relative;
+  background: url(img/beatriz-perez.jpg);
+  width: 45rem;
+  height:44rem;
+  background-size: cover;
+}
+.services__images-three {
+  position: relative;
+  background: url(img/tom.jpg);
+  width: 45rem;
+  height:44rem;
+  background-size: cover;
+}
+.services__images-box{
+  width: 95%;
+  height: 30%;
+  background: rgba(255, 255, 255,1);
+  position: absolute;
+  top: 65%;
+  left: 3%;
+  border: 1px solid rgba(156, 156, 156, 0.5);
+}
+.services__images-box-text {
+  width: 97%;
+  height: 92%;
+  border: 1px solid rgba(156, 156, 156, 0.5);
+  display: block;
+  margin: 1% auto;
+  text-align: center;
+  font-size:1.6rem;
+  position: relative;
+}
+.services__images-box-text-span{
+  top: 20%;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  letter-spacing: 0.3rem;
+  
+
+}
+.services__images-box-text span{
+  padding: 1rem 0;
+  display: block;
+  font-weight: 500;
+}
+.services__images-box-text span:nth-child(1){
+  color:#AEC2C1;
+ 
+}
+.services__images-box-text span:nth-child(2){
+color:rgba(156, 156, 156,1);
+}
+
+
 
 @media (min-width:320px) and (max-width:780px){
 html {
@@ -191,7 +267,26 @@ html {
 
   font-size: 3.6rem;
 }
-
-
-
+.services__images-box-text {
+  font-size: 2.6rem;
+}
+.services__images {
+  display: block;
+  padding: 0 2.5rem 2.5rem;
+}
+.services__images-one {
+  margin: 1.5rem auto;
+  width: 100%;
+  height: 60rem;
+}
+.services__images-two{
+  margin: 1.5rem auto;
+  width: 100%;
+  height: 60rem;
+}
+.services__images-three{
+  margin: 1.5rem auto;
+  width: 100%;
+  height: 60rem;
+}
 }
