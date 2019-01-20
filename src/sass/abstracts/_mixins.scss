@@ -1,0 +1,18 @@
+@mixin bilboard-img-width-height{
+    width: 71rem;
+    height: 75rem;
+  }
+@mixin favorites-img{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;    
+}
+@mixin services-img {
+    position: relative;
+    width: 45rem;
+    height:44rem;
+    background-size: cover;
+    margin-right: 1rem;
+}

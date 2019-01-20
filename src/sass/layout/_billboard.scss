@@ -1,0 +1,58 @@
+.billboard{
+    display: flex;
+    max-width: 145rem;
+    margin: 0 auto;
+  
+   &__img{
+    @include bilboard-img-width-height;
+    padding: 2.5rem 1rem 2.5rem 0rem;
+  
+   & img{
+    width: 100%;
+    height: 100%;
+  }
+}
+&__action {
+    @include bilboard-img-width-height;
+    padding: 2.5rem 0rem 2.5rem 1rem;
+  
+    &--bck {
+    background: $pallet-green-color;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  
+    &-text {
+    text-align: center;
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 30%;
+      color: $white-color;
+  
+      & span:nth-child(1){
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-style: italic;
+    display: block;
+  }
+  & span:nth-child(2){
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 8.6rem;
+    display: inline-block;
+    width: 60%;
+    letter-spacing: 0.7rem;
+  }
+  & span:nth-child(3){
+     display: block;
+     width: 10%;
+     margin:0 auto;
+     border-bottom: 1px solid $white-color;
+     padding-top:2.5rem;
+     
+  }
+}
+}
+}
+}

@@ -1,0 +1,62 @@
+.header__primary-hamburger {
+    display: none;
+    position: absolute;
+    top: 42%;
+    right: 5%;
+    padding: 2rem;
+    cursor: pointer;
+  
+  
+    & span:nth-child(1){
+    width: 4rem;
+    content: '';
+    position: absolute;
+    top: 0.5rem;
+    height: 0.2rem;
+    background: $black;
+    transform: translateX(-50%);
+  }
+  
+  & span:nth-child(2){
+    width: 4rem;
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    height: 0.2rem;
+    background: $black;
+    transform: translateX(-50%);
+  }
+  & span:nth-child(3){
+    width: 4rem;
+    content: '';
+    position: absolute;
+    top: 2.5rem;
+    height: 0.2rem;
+    background: $black;
+    transform: translateX(-50%);
+  }
+}
+  
+  
+  .header__secondary {
+    max-width: 156rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  
+    & ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  & ul img {
+    width:2rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+  & :link,
+  & :visited {
+    text-decoration: none;
+    color:$black-color;
+    font-weight: 600;
+  }
+}

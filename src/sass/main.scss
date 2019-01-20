@@ -1,0 +1,78 @@
+@import "abstracts/_mixins";
+@import "abstracts/_variables";
+@import "base/_reset";
+@import "base/_typography";
+@import "layout/_footer";
+@import "layout/_header";
+@import "layout/_navigation";
+@import "layout/_billboard.scss";
+@import "layout/_favorites.scss";
+@import "layout/_services.scss";
+
+
+
+/* Media Queries */
+  @media (min-width:320px) and (max-width:780px){
+  html {
+    font-size:6px;
+  }
+  .header__primary-hamburger {
+    display: inline-block;
+  }
+  .header__secondary{
+    display: none;
+    position: absolute;
+    right: 0;
+    padding: 0 5%;
+    border: 1px solid rgba(156, 156, 156, 0.5);
+    z-index: 1;
+    background: #fff;
+  }
+  .header__secondary ul {
+    display: block;
+  }
+  .header__secondary img {
+    padding: 1.5rem;
+  }
+  .header__secondary :link,
+  .header__secondary :visited {
+    display: block;
+    padding: 1.5rem;
+  }
+  .billboard__img{
+    height: 40rem;
+  
+  }
+  .billboard__action {
+    height: 40rem;
+  
+  }
+  .billboard__action--bck-text span:nth-child(2) {
+  
+    font-size: 3.6rem;
+  }
+  .services__images-box-text {
+    font-size: 2.6rem;
+    height: 88%;
+  
+  }
+  .services__images {
+    display: block;
+    padding: 0 2.5rem 2.5rem;
+  }
+  .services__images-one {
+    margin: 1.5rem auto;
+    width: 100%;
+    height: 60rem;
+  }
+  .services__images-two{
+    margin: 1.5rem auto;
+    width: 100%;
+    height: 60rem;
+  }
+  .services__images-three{
+    margin: 1.5rem auto;
+    width: 100%;
+    height: 60rem;
+  }
+  }

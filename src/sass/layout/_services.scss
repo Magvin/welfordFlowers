@@ -1,0 +1,68 @@
+.services{
+    max-width: 145rem;
+    margin: 0 auto;
+    
+  
+  &__images {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 2.5rem;
+  
+  
+  
+    &-one {
+    background: url(img/thomas.jpg);
+    @include services-img;
+  }
+  &-two {
+    background: url(img/beatriz-perez.jpg);
+    @include services-img;
+  }
+  &-three {
+    background: url(img/tom.jpg);
+    @include services-img;
+  }
+  &-box{
+    width: 95%;
+    height: 30%;
+    background: $white-color;
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    border: 1px solid $border-color;
+  }
+  &-box-text {
+    width: 97%;
+    height: 92%;
+    border: 1px solid $border-color;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    font-size:1.6rem;
+    position: relative;
+  
+    &-span{
+    top: 20%;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    letter-spacing: 0.3rem;
+    
+  
+  }
+  & span{
+    padding: 1rem 0;
+    display: block;
+    font-weight: 500;
+  }
+  & span:nth-child(1){
+    color:$services-heading-text;
+   
+  }
+  & span:nth-child(2){
+  color:rgba($border-color,1);
+  }
+}
+  }
+}

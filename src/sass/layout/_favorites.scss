@@ -1,0 +1,101 @@
+.favorites{
+    max-width: 145rem;
+    margin: 7rem auto;
+    text-align: center;
+  
+  &__heading h2{
+    text-transform: uppercase;
+    color: $black-color;
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+  }
+  
+  & span{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2rem;
+    margin: 2rem 0 7rem;
+    display: block;
+    color: $grey-color;
+    letter-spacing: 0.3rem;
+  }
+
+  
+&__products{
+    display: flex;
+    justify-content: space-evenly;
+  
+  &-box{
+    width: 34rem;
+    height: 45rem;
+    margin-top: 1rem;
+    margin-right:1rem;
+  
+    & span{
+    font-size:1.6rem;
+    font-weight: 600;
+    margin:1.6rem 0;
+    display: inline-block;
+  }
+  &--price{
+    font-size:1.6rem;
+    display: block;
+  }
+  &--price del{
+    color:$grey-color;
+    font-weight: 600;
+  }
+  &--price span{
+    color:$price-color;
+    margin-left:1rem;
+  }
+  
+  &-img{
+    width: 34rem;
+    height: 37rem;
+  }
+  &-img-one{
+    background: url(img/monika.jpg);
+  @include favorites-img;
+
+  }
+  &-img-two{
+    background: url(img/tanalee.jpg);
+    @include favorites-img;
+    }
+    &-img-three{
+    background: url(img/alexandra.jpg);
+    @include favorites-img;
+  }
+  &-img-four{
+    background: url(img/christie.jpg);
+    @include favorites-img;
+  }
+ } 
+
+}
+}
+.sales__tag{
+  position: absolute;
+  top: -1.8rem;
+  text-align: center;
+  left: 0;
+  right: 0;
+  border: 1px solid grey;
+  display: inline-block;
+  width: 2rem;
+  height: 1.65rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 10rem;
+  background: black;
+  
+}
+   .sales__tag>span{
+    font-size: 1.2rem;
+    color:#fff;
+    font-weight: 300;
+    font-style: italic;
+    margin:0;
+    letter-spacing: 0;
+  }
